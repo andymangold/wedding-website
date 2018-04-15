@@ -18,7 +18,7 @@ h1 {
 }
 
 body {
-  margin: 0 0 20vh;
+  margin: 0;
   font-size: 16px;
   font-family: "Courier New", monospace;
   line-height: 160%;
@@ -26,6 +26,10 @@ body {
   @include side-by-side {
     display: flex;
     align-items: center;
+  }
+
+  @include stacked {
+    margin-bottom: 20vh;
   }
 }
 
